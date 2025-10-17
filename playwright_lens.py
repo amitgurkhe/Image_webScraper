@@ -331,12 +331,25 @@ async def search_with_lens(image_path=None, image_url=None, max_results=100, dow
             # if not present, still proceed
             pass
 
-        # give the page a moment and scroll a few times to lazy-load more thumbnails
         await asyncio.sleep(1.5)
+
+        # Try to load more thumbnails by scrolling so Google loads more results.
+        # We'll scroll a few times until we have a buffer above the requested max_results.
         try:
-            for _ in range(6):
-                await page.evaluate("window.scrollBy(0, document.body.scrollHeight)")
+            desired_thumbs = max(200, max_results * 3)
+            for _ in range(15):
+                try:
+                    await page.evaluate("window.scrollBy(0, document.body.scrollHeight)")
+                except Exception:
+                    pass
                 await asyncio.sleep(1.0)
+                try:
+                    cnt = await page.evaluate("() => document.querySelectorAll('div#islrg img, img.rg_i, img.n3VNCb').length")
+                except Exception:
+                    cnt = 0
+                # stop early if enough thumbnails loaded
+                if cnt >= desired_thumbs:
+                    break
         except Exception:
             pass
 
@@ -410,8 +423,9 @@ async def search_with_lens(image_path=None, image_url=None, max_results=100, dow
                 thumbs = await page.query_selector_all("div#islrg img, img.rg_i, img.n3VNCb")
                 print(f"Fallback: found {len(thumbs)} thumbnail elements to try opening previews")
                 preview_candidates = []
-                # try more thumbnails to collect a larger pool (cap to 300)
-                for idx, t in enumerate(thumbs[:300]):
+                # open up to a larger number of thumbnails to reach the requested max_results
+                max_open = min(len(thumbs), max(200, max_results * 3))
+                for idx, t in enumerate(thumbs[:max_open]):
                     try:
                         await t.click()
                         await asyncio.sleep(1.2)
@@ -443,7 +457,7 @@ async def search_with_lens(image_path=None, image_url=None, max_results=100, dow
                             except Exception:
                                 continue
                         # small pause between clicks
-                        await asyncio.sleep(0.2)
+                        await asyncio.sleep(0.6)
                     except Exception:
                         continue
                 # merge preview_candidates into candidate_urls
@@ -533,5 +547,5 @@ if __name__ == '__main__':
     TEST_IMAGE_PATH = "sample_for_lens/herd.png"
     TEST_IMAGE_URL = None # "https://upload.wikimedia.org/wikipedia/commons/4/4f/Cat_November_2010-1a.jpg"
 
-    res = asyncio.run(search_with_lens(image_path=TEST_IMAGE_PATH, image_url=TEST_IMAGE_URL, max_results=100, download_folder="lens_out", timeout=60))
+    res = asyncio.run(search_with_lens(image_path=TEST_IMAGE_PATH, image_url=TEST_IMAGE_URL, max_results=10, download_folder="lens_out", timeout=20))
     print(res)
