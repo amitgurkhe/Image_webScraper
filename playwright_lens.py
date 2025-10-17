@@ -8,6 +8,10 @@ from aiohttp import ClientSession, ClientTimeout, FormData
 from urllib.parse import quote_plus
 from playwright.async_api import async_playwright
 
+# Single place to change how many images to download in a run
+# Change this value to try a different number (e.g. 100, 200)
+TARGET_RESULTS = 100
+
 
 async def upload_image_get_search_url(image_path: str, timeout: int = 20):
     """
@@ -68,7 +72,7 @@ async def download_image(session, img_url, file_path, retries=3):
     return False
 
 
-async def search_with_lens(image_path=None, image_url=None, max_results=100, download_folder="lens_results", timeout=20):
+async def search_with_lens(image_path=None, image_url=None, max_results=TARGET_RESULTS, download_folder="lens_results", timeout=20):
     if not image_path and not image_url:
         raise ValueError("Provide either image_path or image_url")
 
@@ -547,5 +551,5 @@ if __name__ == '__main__':
     TEST_IMAGE_PATH = "sample_for_lens/herd.png"
     TEST_IMAGE_URL = None # "https://upload.wikimedia.org/wikipedia/commons/4/4f/Cat_November_2010-1a.jpg"
 
-    res = asyncio.run(search_with_lens(image_path=TEST_IMAGE_PATH, image_url=TEST_IMAGE_URL, max_results=10, download_folder="lens_out", timeout=20))
+    res = asyncio.run(search_with_lens(image_path=TEST_IMAGE_PATH, image_url=TEST_IMAGE_URL, max_results=TARGET_RESULTS, download_folder="lens_out", timeout=20))
     print(res)
