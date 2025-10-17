@@ -1,0 +1,37 @@
+URL: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fvsrid%3DCIacoaukgMD5chACGAEiJDcwOThlYWE0LWE3ZDAtNDE4NS05M2MxLTdhNjdhZjQwMjk2MTIGIgJ0YSgSOOWviL2cppAD%26vsint%3DCAIqDAoCCAcSAggKGAEgATojChYNAAAAPxUAAAA_HQAAgD8lAACAPzABEOoHGNEFJQAAgD8%26udm%3D26%26lns_mode%3Dun%26source%3Dlns.web.gisbubb%26vsdim%3D1002,721%26gsessionid%3DQQw2jAEiuAXRWwZ_Mbix1cleAd5zA4VWRYVS2CUOb6vBKQ8P85NEqw%26lsessionid%3DqL_LKxnS31TP4TMoZ5Y4V7Rq1DxSur5HjnLYiam2W58Keg_HIMCM4w%26lns_surface%3D26%26authuser%3D0%26lns_vfs%3De%26qsubts%3D1760531918341%26biw%3D1280%26bih%3D720%26hl%3Den-IN%26sei%3DzpXvaLzkNu7l2roP-4yt2QI&hl=en-IN&q=EhAkAUkAHBe7CvibHyIrjbmQGM-rvscGIjA_WEg-Z-uTCifgzLWPUHSLWjc42wm1kvYM-ZFH6rAPRco8kcVF2KrBXEp1CKFnorQyAVJaAUM
+CONTENT-TYPE: text/html
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta name="viewport" content="initial-scale=1"><title>https://www.google.com/search?vsrid=CIacoaukgMD5chACGAEiJDcwOThlYWE0LWE3ZDAtNDE4NS05M2MxLTdhNjdhZjQwMjk2MTIGIgJ0YSgSOOWviL2cppAD&amp;vsint=CAIqDAoCCAcSAggKGAEgATojChYNAAAAPxUAAAA_HQAAgD8lAACAPzABEOoHGNEFJQAAgD8&amp;udm=26&amp;lns_mode=un&amp;source=lns.web.gisbubb&amp;vsdim=1002,721&amp;gsessionid=QQw2jAEiuAXRWwZ_Mbix1cleAd5zA4VWRYVS2CUOb6vBKQ8P85NEqw&amp;lsessionid=qL_LKxnS31TP4TMoZ5Y4V7Rq1DxSur5HjnLYiam2W58Keg_HIMCM4w&amp;lns_surface=26&amp;authuser=0&amp;lns_vfs=e&amp;qsubts=1760531918341&amp;biw=1280&amp;bih=720&amp;hl=en-IN&amp;sei=zpXvaLzkNu7l2roP-4yt2QI</title></head>
+<body style="font-family: arial, sans-serif; background-color: #fff; color: #000; padding:20px; font-size:18px; overscroll-behavior:contain;" onload="e=document.getElementById('captcha');if(e){e.focus();} if(solveSimpleChallenge) {solveSimpleChallenge(0,0);}">
+<div style="max-width:400px;">
+<hr noshade size="1" style="color:#ccc; background-color:#ccc;"><br>
+<form id="captcha-form" action="index" method="post">
+<noscript>
+<div style="font-size:13px;">
+  In order to continue, please enable javascript on your web browser.
+</div>
+</noscript>
+<script src="https://www.google.com/recaptcha/enterprise.js" async defer></script>
+<script>var submitCallback = function(response) {document.getElementById('captcha-form').submit();};</script>
+<div id="recaptcha" class="g-recaptcha" data-sitekey="6LdLLIMbAAAAAIl-KLj9p1ePhM-4LCCDbjtJLqRO" data-callback="submitCallback" data-s="59opwB67ICSEwXMXca9onjqZyKIjRRzU9fHgxxQ5iAwe1CPggyp-zrCm7s4zYWGVZAIC4-2HCvleFbz9VIYLrrDSSKCerlkzXVjHRlRqIUk52iYCrfWeY8JikbgczR58PleEZsOu7I-tOJsg_H1znJAv05-xfP5VQ0rge5k6BUDkAg3acJmjAYTRvFPdPXvYaHguchF1NYRGoDDXUi61hZ2EhRlPASZpSpc_vg1tTdwVYxUjfjBzMJjYtYq2nCN3E-DAWp_IABqd4Z3FHTtDmgJVnziN0Wk"></div>
+
+<input type='hidden' name='q' value='EhAkAUkAHBe7CvibHyIrjbmQGM-rvscGIjA_WEg-Z-uTCifgzLWPUHSLWjc42wm1kvYM-ZFH6rAPRco8kcVF2KrBXEp1CKFnorQyAVJaAUM'><input type="hidden" name="continue" value="https://www.google.com/search?vsrid=CIacoaukgMD5chACGAEiJDcwOThlYWE0LWE3ZDAtNDE4NS05M2MxLTdhNjdhZjQwMjk2MTIGIgJ0YSgSOOWviL2cppAD&amp;vsint=CAIqDAoCCAcSAggKGAEgATojChYNAAAAPxUAAAA_HQAAgD8lAACAPzABEOoHGNEFJQAAgD8&amp;udm=26&amp;lns_mode=un&amp;source=lns.web.gisbubb&amp;vsdim=1002,721&amp;gsessionid=QQw2jAEiuAXRWwZ_Mbix1cleAd5zA4VWRYVS2CUOb6vBKQ8P85NEqw&amp;lsessionid=qL_LKxnS31TP4TMoZ5Y4V7Rq1DxSur5HjnLYiam2W58Keg_HIMCM4w&amp;lns_surface=26&amp;authuser=0&amp;lns_vfs=e&amp;qsubts=1760531918341&amp;biw=1280&amp;bih=720&amp;hl=en-IN&amp;sei=zpXvaLzkNu7l2roP-4yt2QI">
+</form>
+<hr noshade size="1" style="color:#ccc; background-color:#ccc;">
+
+<div style="font-size:13px; line-break: anywhere;">
+<b>About this page</b><br><br>
+
+Our systems have detected unusual traffic from your computer network.  This page checks to see if it&#39;s really you sending the requests, and not a robot.  <a href="#" onclick="document.getElementById('infoDiv').style.display='block';">Why did this happen?</a><br><br>
+
+<div id="infoDiv" style="display:none; background-color:#eee; padding:10px; margin:0 0 15px 0; line-height:1.4em;">
+This page appears when Google automatically detects requests coming from your computer network which appear to be in violation of the <a href="//www.google.com/policies/terms/">Terms of Service</a>. The block will expire shortly after those requests stop.  In the meantime, solving the above CAPTCHA will let you continue to use our services.<br><br>This traffic may have been sent by malicious software, a browser plug-in, or a script that sends automated requests.  If you share your network connection, ask your administrator for help &mdash; a different computer using the same IP address may be responsible.  <a href="//support.google.com/websearch/answer/86640">Learn more</a><br><br>Sometimes you may be asked to solve the CAPTCHA if you are using advanced terms that robots are known to use, or sending requests very quickly.
+</div>
+
+IP address: 2401:4900:1c17:bb0a:f89b:1f22:2b8d:b990<br>Time: 2025-10-15T12:38:39Z<br>URL: https://www.google.com/search?vsrid=CIacoaukgMD5chACGAEiJDcwOThlYWE0LWE3ZDAtNDE4NS05M2MxLTdhNjdhZjQwMjk2MTIGIgJ0YSgSOOWviL2cppAD&amp;vsint=CAIqDAoCCAcSAggKGAEgATojChYNAAAAPxUAAAA_HQAAgD8lAACAPzABEOoHGNEFJQAAgD8&amp;udm=26&amp;lns_mode=un&amp;source=lns.web.gisbubb&amp;vsdim=1002,721&amp;gsessionid=QQw2jAEiuAXRWwZ_Mbix1cleAd5zA4VWRYVS2CUOb6vBKQ8P85NEqw&amp;lsessionid=qL_LKxnS31TP4TMoZ5Y4V7Rq1DxSur5HjnLYiam2W58Keg_HIMCM4w&amp;lns_surface=26&amp;authuser=0&amp;lns_vfs=e&amp;qsubts=1760531918341&amp;biw=1280&amp;bih=720&amp;hl=en-IN&amp;sei=zpXvaLzkNu7l2roP-4yt2QI<br>
+</div>
+</div>
+</body>
+</html>

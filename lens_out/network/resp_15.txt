@@ -1,0 +1,5 @@
+URL: https://www.google.com/complete/search?q&cp=0&client=multimodal-lens-web&xssi=t&gs_pcrt=2&hl=en-IN&authuser=0&psi=6ZXvaL3GFbTd2roP8fe0iQM.1760531946658&dpr=1.0000000149011612&nolsbt=1
+CONTENT-TYPE: application/json; charset=UTF-8
+
+)]}'
+[[],{}]

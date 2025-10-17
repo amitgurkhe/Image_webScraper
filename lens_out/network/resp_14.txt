@@ -1,0 +1,4 @@
+URL: https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData
+CONTENT-TYPE: application/json+protobuf; charset=UTF-8
+
+[null,null,null,null,null,null,null,null,null,null,0]
